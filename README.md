@@ -1,6 +1,6 @@
 # PHP-Object-Oriented-Programming-Practices
 ```bash
-## Defining classes 
+Defining classes 
 Calling methods 
 Class inheritance
 Extending and overriding classes 
