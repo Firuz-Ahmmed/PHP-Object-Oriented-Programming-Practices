@@ -37,21 +37,19 @@
     $bicycle1->brand="Toyota";
     $bicycle1->model="Corolla";
     $bicycle1->year=2020;
-    $bicycle1->description="This is a car"; // Note: The description seems to be incorrect for a bicycle
+    $bicycle1->description="This is a car"; 
     $bicycle1->weight_kg=1000;
     
     
     // Output the name of the bicycle
-    echo $bicycle1->name();
-    
+    echo $bicycle1->name()."<br/>";
+
+    echo $bicycle1->weight_kg."<br/>";
     // Output the weight of the bicycle in lbs
-    echo $bicycle1->weight_lbs();
+    echo $bicycle1->weight_lbs()."<br/>";
     
     // Set the weight of the bicycle to 2000 lbs
-    echo $bicycle1->set_weight_lbs(2000);
-    
-    // Output the weight of the bicycle in kg after setting it to 2000 lbs
-    echo $bicycle1->weight_kg;
+    echo $bicycle1->set_weight_lbs(2000)."<br/>";
      
      ?>
 </body>
