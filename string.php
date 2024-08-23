@@ -1,7 +1,6 @@
 <?php
 $given=["Hello", "World", "PHP", "Programming"];
 $a=implode(" ",$given);
-//var_dump($a);
 $b=count(explode(' ',$a));
 $arr=explode(' ',$a);
 foreach($arr as $x){
